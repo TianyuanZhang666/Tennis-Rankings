@@ -1,0 +1,34 @@
+// App css here.
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+
+// Bootstrap ---- move to app.js import 'element-ui.css';
+// @import '~bootstrap/scss/bootstrap';
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+}
+.mt-3 {
+  margin-top: 1.35rem;
+}
+.el-pagination {
+  text-align: right;
+}
+.flex {
+  display: flex;
+}
+.align-center {
+ align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.table_head {
+  margin-bottom: 0.75rem;
+}
